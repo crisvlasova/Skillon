@@ -1,0 +1,89 @@
+@keyframes moveAndOpacityTitle {
+    from {
+      transform: translateY(-40%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 100;
+    }
+}
+
+@keyframes moveAndOpacityText {
+    from {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 100;
+    }
+}
+
+@keyframes moveAndOpacityHr {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 100;
+  }
+}
+
+@keyframes playingPauseNStop {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+@keyframes playTriangleAnim {
+    from {
+      translate: 0;
+      display:none;
+    }
+    to {
+      translate: 12%;
+      display:flex;
+    }
+}
+
+@keyframes playTriangleAnimInverse {
+    from {
+      translate: 12%;
+      display:none;
+    }
+    to {
+      translate: 0;
+      display:flex;
+    }
+}
+
+@keyframes playTriangleFade {
+  from {
+    opacity: 100;
+    display:flex;
+  }
+  to {
+    opacity: 0;
+    display:none;
+  }
+}
+
+@keyframes buttonHover {
+  0% {
+    transform:scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.8);
+  }
+  100% {
+    transform:scaleY(1);
+  }
+}
